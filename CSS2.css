@@ -1,0 +1,63 @@
+/*li {
+	border: 2px solid pink;
+}
+#special {
+	color: green;
+	background: yellow;
+}
+.anotherspecial {
+	text-decoration: underline;
+}*/
+
+/*<!-- Chrome Inspector
+- inspect Crl+Shift+I 
+- to work on our own code to test thing out
+- looking at someone else code-->
+<!-- Elemet 
+	li{
+	}-->
+<!-- class 
+ .classname{ 
+	
+	}-->
+<!-- id selector 
+	#name {
+	]-->*/
+
+	/*start*/
+	* {
+		border: 1px solid pink;
+	}
+	/*descendant selector*/
+	
+	li a {
+		color: red;
+	}
+	
+	/*adjacent selector*/
+
+	h3 + ul {
+		border: 4px solid blue;
+	}
+	
+	/*attribute selector*/
+	
+	a[href="http://www.facebook.com"] {
+		background: yellow;
+	}
+	
+	input[type="checkbox"]	{
+		background-color: green;
+	}
+	
+	/*nth of type*/
+	li:nth-of-type(1) {
+		background: grey;
+	}
+
+
+
+
+
+
+
